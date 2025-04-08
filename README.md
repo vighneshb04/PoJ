@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-04-08 at 19 54 35_89498a32](https://github.com/user-attachments/assets/8f316d44-fe4a-40ad-a3f6-a3b977dd1962)# ⚖️ Proof of Justice (PoJ)
+⚖️ Proof of Justice (PoJ)
 
 ## 📌 NFT-Based Decentralized Legal Record System
 
