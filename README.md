@@ -1,4 +1,4 @@
-# ⚖️ Proof of Justice (PoJ)
+![WhatsApp Image 2025-04-08 at 19 54 35_89498a32](https://github.com/user-attachments/assets/8f316d44-fe4a-40ad-a3f6-a3b977dd1962)# ⚖️ Proof of Justice (PoJ)
 
 ## 📌 NFT-Based Decentralized Legal Record System
 
@@ -91,6 +91,8 @@ npm install
 
 - YouTube Video: [https://www.youtube.com/watch?v=Toi6KhHg5Q4](https://www.youtube.com/watch?v=Toi6KhHg5Q4)  
 - Canva Presentation: [https://www.canva.com/design/DAGkDQi93CQ/CSPy23C-ePGl62iKp3sAgg/edit?utm_content=DAGkDQi93CQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGkDQi93CQ/CSPy23C-ePGl62iKp3sAgg/edit?utm_content=DAGkDQi93CQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+![WhatsApp Image 2025-04-08 at 19 54 03_09c5dc1f](https://github.com/user-attachments/assets/f2b8f61d-5608-44e1-95bc-9bddeeb87a0a)
+![WhatsApp Image 2025-04-08 at 19 54 35_89498a32](https://github.com/user-attachments/assets/72d26989-1f7f-4546-973d-ba93fcaec084)
 
 ## 👨‍💻 Authors
 
