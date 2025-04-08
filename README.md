@@ -1,71 +1,171 @@
-# Getting Started with Create React App
+# ⚖️ Proof of Justice (PoJ) — The Future of Legal Transparency via NFTs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📝 Description
 
-## Available Scripts
+**Proof of Justice (PoJ)** is a decentralized application (DApp) that redefines how legal judgments are recorded and verified. It enables the tokenization of legal case judgments as **NFTs**, ensuring they are **immutable, tamper-proof, transparent**, and stored permanently on a decentralized network.
 
-In the project directory, you can run:
+This project leverages **Ethereum blockchain** and **IPFS** to store both the metadata and original PDF documents of judgments. Every NFT minted carries full case details and links to the original judgment stored on **IPFS via Pinata**.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## ⚙️ Features & Functionalities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ✅ Tokenize legal judgments as **ERC-721 NFTs**
+- ✅ Store judgment PDF securely on **IPFS via Pinata**
+- ✅ Metadata includes court name, region, case type, judge, and author
+- ✅ Mint NFTs to specific legal authorities/parties
+- ✅ Publicly verify authenticity and ownership on-chain
+- ✅ Access case metadata and documents from the DApp frontend
+- ✅ Only **admin/authorized user** can mint or manage NFTs
+- ✅ Transparent, decentralized, tamper-proof recordkeeping
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Layer               | Technologies                                                                 |
+|---------------------|------------------------------------------------------------------------------|
+| **Frontend**        | HTML, CSS, JavaScript                                                        |
+| **Smart Contracts** | Solidity (ERC-721 Standard)                                                  |
+| **Blockchain**      | Ethereum (Sepolia Testnet)                                                   |
+| **Wallet**          | MetaMask                                                                     |
+| **IDE**             | Visual Studio Code, Remix IDE                                                |
+| **Storage**         | IPFS via Pinata                                                               |
+| **Blockchain Bridge** | Web3.js                                                                   |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧰 Tools & Dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Solidity](https://soliditylang.org/) – Smart contract language
+- [Remix IDE](https://remix.ethereum.org/) – Writing, compiling & deploying contracts
+- [MetaMask](https://metamask.io/) – Wallet integration
+- [Web3.js](https://web3js.readthedocs.io/) – Connect frontend to Ethereum
+- [Pinata IPFS](https://www.pinata.cloud/) – Uploading documents and metadata
+- [OpenZeppelin](https://docs.openzeppelin.com/contracts/) – ERC-721 standard, access control
+- [Pinata SDK](https://www.npmjs.com/package/@pinata/sdk) – Upload metadata to IPFS
+- [Visual Studio Code](https://code.visualstudio.com/) – Frontend development
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🔁 Workflow
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```text
+Step 1: Upload Case Details
+→ User fills in case metadata (court, region, judge, author, etc.)
+→ Uploads a PDF file of the legal judgment.
 
-## Learn More
+Step 2: Store in IPFS via Pinata
+→ PDF is uploaded and pinned to IPFS via Pinata
+→ Returns a unique content identifier (CID)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Step 3: Mint NFT
+→ Admin verifies and mints the judgment as an NFT
+→ Metadata + IPFS CID is stored and used as tokenURI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Step 4: Verification
+→ Anyone can view the NFT details and open the judgment PDF via IPFS
+→ Ensures transparency and traceability
+📦 How to Run the Project Locally
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/proof-of-justice.git
+cd proof-of-justice
+2. Install Dependencies
+bash
+Copy
+Edit
+npm install
+3. Connect to MetaMask and Sepolia Testnet
+Open MetaMask
 
-### Code Splitting
+Add Sepolia Testnet if not already available
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Import your account or create a new one
 
-### Analyzing the Bundle Size
+Fund with test ETH via Sepolia Faucet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Configure Pinata
+Create an account at Pinata
 
-### Making a Progressive Web App
+Generate API Key and Secret
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Add .env file in root:
 
-### Advanced Configuration
+env
+Copy
+Edit
+PINATA_API_KEY=your_api_key
+PINATA_SECRET_API_KEY=your_secret_key
+5. Smart Contract Deployment
+Open Remix IDE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Paste your Solidity smart contract
 
-### Deployment
+Compile and deploy using Injected Web3 (connected to MetaMask)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Copy the deployed contract address
 
-### `npm run build` fails to minify
+6. Update Contract Address in Frontend
+In your JS file:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Poj1" 
+javascript
+Copy
+Edit
+const contractAddress = "your_deployed_contract_address_here";
+7. Run Frontend
+bash
+Copy
+Edit
+npm start
+Open http://localhost:3000 to view the DApp in the browser.
+
+📂 Project Structure
+bash
+Copy
+Edit
+proof-of-justice/
+├── contracts/
+│   └── PoJ.sol                  # ERC-721 Smart Contract
+├── src/
+│   ├── components/              # UI Components
+│   ├── utils/                   # Web3 & IPFS functions
+│   └── App.js                   # Main React App
+├── .env                         # Pinata API Keys
+├── package.json
+└── README.md
+🧪 Testing & Validation
+✅ All contracts tested and deployed via Remix IDE
+
+✅ IPFS links verified through returned CID from Pinata
+
+✅ NFT metadata rendered correctly in wallet explorers and DApp
+
+✅ Admin-only minting validated with access control
+
+✅ Conclusion
+PoJ (Proof of Justice) is a step toward a transparent legal future, where:
+
+📌 Judgments are immutable
+
+🔐 Legal records are tamper-proof
+
+🌍 Data is decentralized and accessible forever
+
+📜 Ownership and citations are on-chain and traceable
+
+This system paves the way for trustless justice and decentralized governance by ensuring that no legal record is ever lost, altered, or misused again.
+
+👨‍💻 Project Lead:   Vighnesh B AND KeerthanaG2
+
+🔗 GitHub: @vighneshb04, @KeerthanaG2
+
+🌐 LinkedIn 
+Vighnesh B : https://www.linkedin.com/in/vighnesh-b-b9391b291/
+Keerthana :  https://www.linkedin.com/in/keerthana-sai-gazula-4013b927a/
+📃 License
+This project is licensed under the MIT License.
