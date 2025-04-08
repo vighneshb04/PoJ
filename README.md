@@ -1,4 +1,4 @@
-⚖️ Proof of Justice (PoJ)
+## ⚖️ Proof of Justice (PoJ)
 
 ## 📌 NFT-Based Decentralized Legal Record System
 
