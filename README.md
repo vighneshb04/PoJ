@@ -164,18 +164,21 @@ This system paves the way for trustless justice and decentralized governance by 
 
 🔗 GitHub: @vighneshb04, @KeerthanaG2
 
-Authors & Links
-🌐 LinkedIn
+## 👨‍💻 Authors
 
-Vighnesh B
+- **Vighnesh B**  
+  [LinkedIn →](https://www.linkedin.com/in/vighnesh-b-b9391b291/)
 
-Keerthana Sai Gazula
+- **Keerthana Sai Gazula**  
+  [LinkedIn →](https://www.linkedin.com/in/keerthana-sai-gazula-4013b927a/)
 
-📺 YouTube Demo
-Watch the PoJ Demo on YouTube
+---
 
-📊 Project Slide Deck
-View the Proof of Justice Slides on Canva
+📺 **Project Demo Video**  
+[Watch on YouTube →](https://www.youtube.com/watch?v=Toi6KhHg5Q4)
+
+📊 **Project Presentation Slide Deck**  
+[View on Canva →](https://www.canva.com/design/DAGkDQi93CQ/CSPy23C-ePGl62iKp3sAgg/edit?utm_content=DAGkDQi93CQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 
 
